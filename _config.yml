@@ -1,0 +1,17 @@
+# The public pages of DuoGether (M4.6), built by GitHub Pages as they are.
+# site/README.md says how they are published and what they must stay true to.
+title: DuoGether
+description: 遊戲揪團，快速找隊友
+lang: zh-Hant-TW
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
