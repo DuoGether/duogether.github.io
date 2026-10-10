@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # DuoGether 隱私權政策
 
-- 版本：1.0（2026 年 10 月 10 日生效）
+- 版本：1.1（2026 年 10 月 10 日生效）
 - 適用範圍：DuoGether Android App 與 duogether.app 網站
 - 營運者：DuoGether
 - 聯絡信箱：support@duogether.app
@@ -87,7 +87,7 @@ DuoGether 讓成年玩家為一款遊戲找一位隊友。這份政策說明我�
 
 ### 服務供應商
 
-DuoGether 建立在 Google 的服務上，資料由 Google 依我們的指示處理：
+App 建立在 Google 的服務上，資料由 Google 依我們的指示處理：
 
 | 服務 | 用途 |
 | --- | --- |
@@ -96,9 +96,16 @@ DuoGether 建立在 Google 的服務上，資料由 Google 依我們的指示處
 | Firebase Cloud Messaging | 推播通知 |
 | Firebase App Check、Play Integrity | 確認連線來自正版 App |
 | Firebase Crashlytics | 崩潰與裝置診斷 |
-| Gmail | 公開測試初期用來收檢舉案件 |
+| Gmail | 公開測試初期用來收檢舉案件，以及收你寄到 support@duogether.app 的信 |
 
-主要資料存放在台灣的機房；登入、推播、驗證與診斷可能由 Google 位於其他國家的機房處理。除此之外，我們只會在法律要求時提供資料給主管機關。
+網站和信箱另外用到兩家：
+
+| 服務 | 用途 |
+| --- | --- |
+| GitHub Pages | 提供 duogether.app 網站。你瀏覽網站時，GitHub 會處理你的 IP 位址；網站本身沒有追蹤程式，也沒有廣告 |
+| Cloudflare | 網域的 DNS、www 網址的轉址，以及把寄到 support@duogether.app 的信轉寄到管理者的信箱 |
+
+主要資料存放在台灣的機房；登入、推播、驗證與診斷可能由 Google 位於其他國家的機房處理，網站與信件的轉寄由 GitHub 與 Cloudflare 位於各國的機房處理。除了上面這些供應商，我們只會在法律要求時提供資料給主管機關。
 
 ## 五、保存多久
 
