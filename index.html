@@ -229,13 +229,5 @@
       <a href="mailto:support@duogether.app">support@duogether.app</a>
     </div>
   </footer>
-  <script>
-    // On Android the Play Store opens the listing itself; elsewhere the listing is
-    // not on the web while the app is in testing, so the badge goes to Play's page
-    // for joining the test.
-    if (!/Android/i.test(navigator.userAgent)) {
-      for (const link of document.querySelectorAll('a.play')) link.href = 'https://play.google.com/apps/testing/app.duogether';
-    }
-  </script>
 </body>
 </html>
